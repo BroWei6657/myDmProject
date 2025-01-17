@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/ContactCSS.css">
+    <link rel="icon" href="../files/icons/Contact.svg">
+    <title>联系我们</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../Index.html">首页</a></li>
+            <li><a href="../pages/News.html">案例</a></li>
+            <li><a href="../pages/Opinion.html">观点</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="grid-container">
+            <div class="title">
+                <h2>联系我们</h2>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">您的全名：</label><br>
+                        <input type="text" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">您的性别：</label><br>
+                        <input type="radio" name="gender">男<br>
+                        <input type="radio" name="gender">女<br>
+                        <input type="radio" name="gender">其他
+                    </div>
+                    <div class="form-group">
+                        <label for="shortcomings">您认为我们有何不足之处：</label><br>
+                        <input type="checkbox" name="shortcomings">页面设计不够美观<br>
+                        <input type="checkbox" name="shortcomings">需要更多辅助功能<br>
+                        <input type="checkbox" name="shortcomings">响应式设计不够完善<br>
+                        <input type="checkbox" name="shortcomings">使用不够直观便捷
+                    </div>
+                    <div class="form-group">
+                        <label for="message">如果您有其他的建议，请填写：</label><br>
+                        <textarea name="message" rows="4" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">您的邮箱：</label><br>
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group-end">
+                        <button type="submit" class="buttom-button">提交</button>
+                        <button type="reset" class="buttom-button">重新填写</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>小组成员：宋子阳、杜佳伟、李卓昀</p>
+        <p>联系我们：<a href="mailto:1828033702@qq.com">1828033702@qq.com</a></p>
+    </footer>
+</body>
+</html>
